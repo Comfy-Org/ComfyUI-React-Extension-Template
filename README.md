@@ -129,7 +129,7 @@ npm install -D @comfyorg/comfyui-frontend-types
 
 1. Install the comfy-cli tool:
    ```bash
-   npm install -g @comfy-org/cli
+   pip install comfy-cli
    ```
 
 2. Verify your pyproject.toml has the correct metadata:
@@ -146,7 +146,7 @@ npm install -D @comfyorg/comfyui-frontend-types
 
 3. Publish your extension:
    ```bash
-   comfy node publish
+   comfy-cli publish
    ```
 
 4. When prompted, enter your API key
