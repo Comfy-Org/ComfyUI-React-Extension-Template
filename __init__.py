@@ -48,6 +48,6 @@ if os.path.exists(dist_path):
     except Exception as e:
         print(f"Could not load project config, using default name '{project_name}': {e}")
 
-    nodes.EXTENSION_WEB_DIRS[project_name] = os.path.join(workspace_path, "dist")
+    #nodes.EXTENSION_WEB_DIRS[project_name] = os.path.join(workspace_path, "dist")
 else:
     print("ComfyUI Example React Extension: Web directory not found")

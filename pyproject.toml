@@ -14,3 +14,4 @@ PublisherId = "your_publisher_id" # Change this to your actual publisher ID
 DisplayName = "ComfyUI React Extension Template"
 Icon = ""
 includes = ["dist/"]
+web = "dist/"
